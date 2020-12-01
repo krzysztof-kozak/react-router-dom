@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "name": "John",
+      "surname": "Doe",
+      "picture": "https://randomuser.me/api/portraits/lego/1.jpg",
+      "id": 1
+    },
+    {
+      "name": "Kate",
+      "surname": "Moss",
+      "picture": "https://randomuser.me/api/portraits/lego/2.jpg",
+      "id": 2
+    },
+    {
+      "name": "Steve",
+      "surname": "Hall",
+      "picture": "https://randomuser.me/api/portraits/lego/3.jpg",
+      "id": 3
+    },
+    {
+      "name": "Kris",
+      "surname": "Dauwgh",
+      "picture": "https://randomuser.me/api/portraits/lego/4.jpg",
+      "id": 4
+    },
+    {
+      "name": "Soercia",
+      "surname": "Plum",
+      "picture": "https://randomuser.me/api/portraits/lego/5.jpg",
+      "id": 5
+    }
+  ]
+}
