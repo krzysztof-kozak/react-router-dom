@@ -88,6 +88,8 @@ button:active {
 
 .wrapper {
   min-width: 220px;
+  background: #e8eaf6;
+  border-right: 1px solid;
 }
 
 article {
