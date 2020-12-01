@@ -37,7 +37,7 @@ export default function App() {
             </Route>
 
             <Route path="/">
-              <Home color="#d6e6f3" />
+              <Home color="#d6e6f3" a />
             </Route>
           </Switch>
         </Router>
