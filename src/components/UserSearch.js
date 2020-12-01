@@ -17,13 +17,13 @@ const UserSearch = ({ handleSearch }) => {
       }}
     >
       <input onChange={handleInput} value={input} type="text" />
-      <button type="submit">Szukaj</button>
+      <button type="submit">Find</button>
       <button
         onClick={(e) => {
           handleSearch(e, "");
         }}
       >
-        Resetuj
+        Reset
       </button>
     </form>
   );

@@ -8,7 +8,7 @@ const UserList = ({ users }) => {
   const url = match.url;
 
   const showUsers = () => {
-    if (users) {
+    if (users.length) {
       return users.map((user) => {
         return (
           <Link className="userLink" to={`${url}/${user.id}`} key={user.id}>
@@ -16,6 +16,8 @@ const UserList = ({ users }) => {
           </Link>
         );
       });
+    } else {
+      return <p className="loading">No results</p>;
     }
   };
 

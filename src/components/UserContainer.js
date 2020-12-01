@@ -21,11 +21,14 @@ const UserContainer = () => {
   }, []);
 
   if (users) {
-    let filteredUsers = users.filter(
-      (user) =>
-        user.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.surname.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    let filteredUsers = users.filter((user) => {
+      const fullName = `${user.name} ${user.surname}`;
+      return fullName
+        .toLowerCase()
+        .split(" ")
+        .join("")
+        .includes(searchTerm.toLowerCase().split(" ").join(""));
+    });
 
     return (
       <>
