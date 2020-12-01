@@ -2,7 +2,7 @@ import React from "react";
 
 const User = ({ user }) => {
   return (
-    <div className="user">
+    <div to="/home" className="user">
       <p className="user__name">{`${user.name} ${user.surname}`}</p>
       <img
         className="user__picture"

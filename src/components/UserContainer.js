@@ -14,10 +14,10 @@ const UserContainer = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch("users.json")
+      fetch("/users.json")
         .then((response) => response.json())
         .then((data) => setUsers(data.users));
-    }, 1500);
+    }, 500);
   }, []);
 
   if (users) {

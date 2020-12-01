@@ -34,7 +34,7 @@ nav {
   background-color: rgba(211, 28, 28, 0.73);
 }
 
-a {
+.navLink {
   display: block;
   text-decoration: none;
 
@@ -46,7 +46,7 @@ a {
   border-radius: 5px;
 }
 
-a:hover {
+.navLink:hover {
   background-color: rgba(211, 28, 28, 0.76);
   box-shadow: 0 0 3px 1px;
 }
@@ -125,6 +125,11 @@ article {
   box-shadow: inset 0px -1px 4px 1px #ce4a43;
 }
 
+.userLink {
+  text-decoration: none;
+  color: black;
+}
+
 .user__name {
   font-size: 2em;
   flex-basis: 25%;
@@ -156,4 +161,12 @@ input {
   font-size: 2em;
   color: #a82020db;
   text-shadow: 0 0 2px;
+}
+
+.profile {
+  font-size: 2em;
+}
+
+.profileLink {
+  color: #d84d50;
 }
